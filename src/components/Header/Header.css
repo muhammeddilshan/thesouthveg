@@ -1,0 +1,16 @@
+.menu {
+    display: none;
+    font-size: 30px;
+}
+
+@media (max-width:850px) {
+
+    .navbar,
+    .nav_buttons {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+}
