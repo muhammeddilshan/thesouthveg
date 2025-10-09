@@ -6,15 +6,15 @@ import {
   FaPhoneAlt,
   FaEnvelope,
 } from "react-icons/fa";
-import Logo from "../../assets/THESOUTHVEGFINAL.jpg";
+import Logo from "../../assets/THESOUTHVEGFINAL.png";
 
 const Footer = () => {
   return (
     <footer className="bg-green-200 text-green-900 py-12 px-6 md:px-16">
-      <div className="grid  md:grid-cols-4 gap-10">
+      <div className="grid md:grid-cols-4 gap-10">
         {/* Logo & Description */}
         <div>
-          <h2 className="w-[100px] mb-4">
+          <h2 className="w-[150px] mb-4">
             <img src={Logo} alt="" />
           </h2>
           <p className="text-green-800 mb-6">
@@ -45,22 +45,22 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Services */}
+        {/* Contact Info */}
         <div>
           <div className="space-y-3">
-            <div className="flex items-center gap-3">
-              <FaMapMarkerAlt className="text-green-900 text-xl" />
+            <div className="flex items-start gap-3">
+              <FaMapMarkerAlt className="text-green-900 text-[22px] mt-[4px] flex-shrink-0" />
               <p>
                 Royal Trade Centre, Bypass Road, near Al Shifa Hospital Road,
                 Perinthalmanna, Angadipuram, Kerala 679322
               </p>
             </div>
             <div className="flex items-center gap-3">
-              <FaPhoneAlt className="text-green-900 text-xl" />
+              <FaPhoneAlt className="text-green-900 text-[20px]" />
               <p>+91 9446766221</p>
             </div>
             <div className="flex items-center gap-3">
-              <FaEnvelope className="text-green-900 text-xl" />
+              <FaEnvelope className="text-green-900 text-[20px]" />
               <p>thesouthveg@gmail.com</p>
             </div>
           </div>
@@ -74,7 +74,7 @@ const Footer = () => {
               <FaTwitter size={20} />
             </a>
             <a href="#" className="hover:text-green-700">
-              <FaYoutube size={22} />
+              <FaYoutube size={20} />
             </a>
           </div>
         </div>

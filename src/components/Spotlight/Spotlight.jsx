@@ -15,10 +15,10 @@ const Spotlight = () => {
         </p>
 
         <div className="flex gap-4 max-lg:justify-center">
-          <button className="px-6 py-3 font-semibold rounded-[30px_0_30px_0] bg-[#2c5234] text-white transition-colors duration-300 hover:bg-[#3e6b48]">
+          <button className="cursor-pointer px-6 py-3 font-semibold rounded-[30px_0_30px_0] bg-[#2c5234] text-white transition-colors duration-300 hover:bg-[#3e6b48]">
             Learn More
           </button>
-          <button className="px-6 py-3 font-semibold rounded-[30px_0_30px_0] bg-[#a7d3a6] text-[#2c5234] transition-colors duration-300 hover:bg-[#8fc98f]">
+          <button className="cursor-pointer px-6 py-3 font-semibold rounded-[30px_0_30px_0] bg-[#a7d3a6] text-[#2c5234] transition-colors duration-300 hover:bg-[#8fc98f]">
             Order Now
           </button>
         </div>
