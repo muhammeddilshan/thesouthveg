@@ -48,20 +48,37 @@ const Footer = () => {
         {/* Contact Info */}
         <div>
           <div className="space-y-3">
+            {/* Location */}
             <div className="flex items-start gap-3">
               <FaMapMarkerAlt className="text-green-900 text-[22px] mt-[4px] flex-shrink-0" />
-              <p>
+              <a
+                href="https://www.google.com/maps?q=Royal+Trade+Centre,+Bypass+Road,+near+Al+Shifa+Hospital+Road,+Perinthalmanna,+Angadipuram,+Kerala+679322"
+                target="_blank"
+                rel="noopener noreferrer"
+                className=" text-green-900"
+              >
                 Royal Trade Centre, Bypass Road, near Al Shifa Hospital Road,
                 Perinthalmanna, Angadipuram, Kerala 679322
-              </p>
+              </a>
             </div>
+
+            {/* Phone */}
             <div className="flex items-center gap-3">
               <FaPhoneAlt className="text-green-900 text-[20px]" />
-              <p>+91 9446766221</p>
+              <a href="tel:+919446766221" className=" text-green-900">
+                +91 9446766221
+              </a>
             </div>
+
+            {/* Email */}
             <div className="flex items-center gap-3">
               <FaEnvelope className="text-green-900 text-[20px]" />
-              <p>thesouthveg@gmail.com</p>
+              <a
+                href="mailto:thesouthveg@gmail.com"
+                className=" text-green-900"
+              >
+                thesouthveg@gmail.com
+              </a>
             </div>
           </div>
 
