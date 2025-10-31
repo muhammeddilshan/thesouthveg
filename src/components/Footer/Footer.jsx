@@ -115,7 +115,10 @@ const Footer = () => {
             <a href="#" className="hover:text-green-700">
               <FaFacebookF size={20} />
             </a>
-            <a href="#" className="hover:text-green-700">
+            <a
+              href="https://www.instagram.com/thesouthveg/?hl=en"
+              className="hover:text-green-700"
+            >
               <FaInstagram size={20} />
             </a>
             <a href="#" className="hover:text-green-700">
