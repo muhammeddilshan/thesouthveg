@@ -22,12 +22,15 @@ const About = () => {
           Welcome To <br /> thesouthveg
         </h1>
         <p className="text-base md:text-lg leading-relaxed max-w-xl">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur.
+          Welcome to <b>thesouthveg </b>, your perfect spot for pure and
+          delicious vegetarian food. We are dedicated to serving fresh,
+          hygienic, and flavorful dishes that make you feel at home. Our goal is
+          to offer a happy dining experience with tasty meals, friendly service,
+          and a warm ambience. We prepare every dish with care, using quality
+          ingredients to bring you natural flavors. Whether you're here for a
+          family meal or a quick bite, we ensure you leave with a smile. Visit
+          us and enjoy vegetarian food that’s simple, wholesome, and full of
+          love!
         </p>
       </div>
     </section>

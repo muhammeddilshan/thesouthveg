@@ -1,7 +1,6 @@
 import "./App.css";
 import About from "./components/About/About";
 import Footer from "./components/Footer/Footer";
-import Gallery from "./components/Gallery/Gallery";
 import Header from "./components/Header/Header";
 import OrganicHero from "./components/OrganicHero/OrganicHero";
 import Services from "./components/Services/Services";
@@ -12,13 +11,23 @@ function App() {
   return (
     <div>
       <Header />
-      <Spotlight />
-      <About />
+      <section id="home">
+        <Spotlight />
+      </section>
+
+      <section id="about">
+        <About />
+      </section>
       <OrganicHero />
-      <Services />
-      <Testimonials />
-      {/* <Gallery /> */}
-      <Footer />
+      <section id="services">
+        <Services />
+      </section>
+      <section id="testimonials">
+        <Testimonials />
+      </section>
+      <section id="contact">
+        <Footer />
+      </section>
     </div>
   );
 }

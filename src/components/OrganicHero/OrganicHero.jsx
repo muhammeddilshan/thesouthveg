@@ -21,9 +21,11 @@ const OrganicHero = () => {
           Fresh &amp; Healthy
         </h3>
         <p className="mt-4 text-green-900 text-base md:text-lg leading-relaxed">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-          tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+          From farm-fresh vegetables to chemical-free ingredients, we bring you
+          food that is wholesome, nutritious, and truly organic. Eat clean, live
+          healthy!
         </p>
+
         <button className="mt-6 bg-green-800 hover:bg-green-900 text-white px-6 py-3 rounded-[30px_0_30px_0] font-medium transition">
           Learn More
         </button>

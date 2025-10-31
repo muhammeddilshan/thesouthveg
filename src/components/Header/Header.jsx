@@ -14,7 +14,7 @@ const Header = () => {
         </div>
 
         {/* Nav Links */}
-        <nav className="navbar">
+        {/* <nav className="navbar">
           <ul className="flex gap-8 list-none">
             {["Home", "About Us", "Services", "Page", "Contact Us"].map(
               (item, i) => (
@@ -32,6 +32,27 @@ const Header = () => {
                 </li>
               )
             )}
+          </ul>
+        </nav> */}
+
+        <nav className="navbar">
+          <ul className="flex gap-8 list-none">
+            {[
+              { name: "Home", link: "#home" },
+              { name: "About Us", link: "#about" },
+              { name: "Services", link: "#services" },
+              { name: "Testimonials", link: "#testimonials" },
+              { name: "Contact Us", link: "#contact" },
+            ].map((item, i) => (
+              <li key={i}>
+                <a
+                  href={item.link}
+                  className="text-[#2c5234] font-medium transition-colors duration-300 hover:text-[#4CAF50]"
+                >
+                  {item.name}
+                </a>
+              </li>
+            ))}
           </ul>
         </nav>
 

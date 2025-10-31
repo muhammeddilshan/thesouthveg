@@ -10,8 +10,8 @@ const Spotlight = () => {
           Healty Food For <br /> The Good Life
         </h1>
         <p className="text-[#555] text-[1.1rem] mb-8 leading-relaxed">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-          tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+          Discover food that not only fills your stomach, but also fills your
+          heart.
         </p>
 
         <div className="flex gap-4 max-lg:justify-center">

@@ -1,10 +1,10 @@
 import {
   FaFacebookF,
-  FaTwitter,
   FaYoutube,
   FaMapMarkerAlt,
   FaPhoneAlt,
   FaEnvelope,
+  FaInstagram,
 } from "react-icons/fa";
 import Logo from "../../assets/THESOUTHVEGFINAL.png";
 
@@ -18,8 +18,8 @@ const Footer = () => {
             <img src={Logo} alt="" />
           </h2>
           <p className="text-green-800 mb-6">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-            tellus, luctus nec ullamcorper mattis.
+            Taste the magic of nature in every bite of our wholesome vegetarian
+            meals.
           </p>
         </div>
 
@@ -27,10 +27,38 @@ const Footer = () => {
         <div>
           <h3 className="text-xl font-semibold mb-4">Navigation</h3>
           <ul className="space-y-2">
-            <li>Home</li>
-            <li>Pages</li>
-            <li>About Us</li>
-            <li>Services</li>
+            <li>
+              <a
+                href="#home"
+                className="hover:text-[#4CAF50] transition-colors"
+              >
+                Home
+              </a>
+            </li>
+            <li>
+              <a
+                href="#testimonials"
+                className="hover:text-[#4CAF50] transition-colors"
+              >
+                Testimonials
+              </a>
+            </li>
+            <li>
+              <a
+                href="#about"
+                className="hover:text-[#4CAF50] transition-colors"
+              >
+                About Us
+              </a>
+            </li>
+            <li>
+              <a
+                href="#services"
+                className="hover:text-[#4CAF50] transition-colors"
+              >
+                Services
+              </a>
+            </li>
           </ul>
         </div>
 
@@ -88,7 +116,7 @@ const Footer = () => {
               <FaFacebookF size={20} />
             </a>
             <a href="#" className="hover:text-green-700">
-              <FaTwitter size={20} />
+              <FaInstagram size={20} />
             </a>
             <a href="#" className="hover:text-green-700">
               <FaYoutube size={20} />
@@ -99,7 +127,7 @@ const Footer = () => {
 
       {/* Bottom Line */}
       <div className="border-t border-green-700 mt-10 pt-6 text-center text-green-800">
-        © 2021 Vegan Template • All Rights Reserved
+        © 2025 thesouthveg • All Rights Reserved
       </div>
     </footer>
   );

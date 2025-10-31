@@ -5,17 +5,17 @@ const Services = () => {
     {
       icon: <FaThumbsUp size={40} />,
       title: "Quality Food",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus.",
+      desc: "We serve fresh, hygienic, and perfectly prepared vegetarian dishes made with high-quality ingredients to ensure the best taste and purity in every bite.",
     },
     {
       icon: <FaUtensils size={40} />,
       title: "Super Taste",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus.",
+      desc: "Enjoy delicious flavors that make every meal memorable. Our recipes are crafted to bring you the perfect mix of taste, freshness, and satisfaction.",
     },
     {
       icon: <FaTruck size={40} />,
       title: "Fast Delivery",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus.",
+      desc: "Craving good food? We deliver your favorite dishes quickly and with care, ensuring they reach you fresh, hot, and ready to enjoy.",
     },
   ];
 
